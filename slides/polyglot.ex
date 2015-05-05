@@ -1,10 +1,10 @@
 [title: "Elixir", subtitle: "Bryan Weber<br/>@brweber2, @cobenian"],
 
-[title: "What is Elixir?"],
+[heading: "What is Elixir?"],
 
 ["Erlang", "Beam/EVM", "Functional", "Ruby like syntax"],
 
-[title: "Why Elixir?"],
+[heading: "Why Elixir?"],
 
 ["Scalability", "Fault tolerance", "Tooling", "Interactive development", "OTP", "Erlang libraries"],
 
@@ -16,11 +16,11 @@
 
 [code: """
 PrepareAlarm = fun(Room) ->
-    io:format("Alarm set in ~s.~n",[Room]),
-    fun() -> io:format(
-               "Alarm tripped in ~s! Call Batman!~n",
-               [Room])
-    end
+  io:format("Alarm set in ~s.~n",[Room]),
+  fun() -> io:format(
+   "Alarm tripped in ~s! Call Batman!~n",
+   [Room])
+  end
 end.
 """, lang: "erlang"],
 
@@ -95,7 +95,7 @@ Source.code(
 
 ),
 
-[title: "How can this be true?"],
+[heading: "How can this be true?"],
 
 "OK, so why do this when we programmers are used to something different?<br/><br/>What benefit is there?",
 
