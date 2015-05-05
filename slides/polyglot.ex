@@ -14,8 +14,7 @@
 
 "Seriously, what is this syntax?",
 
-[html: """
-<pre><code class="erlang">
+[code: """
 PrepareAlarm = fun(Room) ->
     io:format("Alarm set in ~s.~n",[Room]),
     fun() -> io:format(
@@ -23,8 +22,7 @@ PrepareAlarm = fun(Room) ->
                [Room])
     end
 end.
-</code></pre>
-"""],
+""", lang: "erlang"],
 
 "Not so scary, but there are implementation details from <i>Prolog</i> in there
 that you probably missed.<br/><br/>Maybe of interest to this crowd?",

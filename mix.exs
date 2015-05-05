@@ -27,6 +27,6 @@ defmodule PolyglotElixirPresentation.Mixfile do
   #
   # Type `mix help deps` for more examples and options
   defp deps do
-    [{:presentex, "~> 0.0.5"}]
+    [{:presentex, "~> 0.0.8"}]
   end
 end
